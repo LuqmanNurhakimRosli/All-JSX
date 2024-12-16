@@ -23,7 +23,7 @@ export default [
             reviewCount: 30
         },
         location: "Online",
-        openSpots: 27,
+        openSpots: 227,
     },
     {
         id: 3,

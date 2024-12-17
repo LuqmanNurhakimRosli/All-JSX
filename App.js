@@ -5,8 +5,10 @@ import jokeData from './jokeData'
 function App() {
     const arrayJoke = jokeData.map( joke => {
         return <Joke 
+        key = {joke.id}
         setup={joke.setup}  
-        punchline={joke.punchline} 
+        punchline={joke.punchline}
+        joke={joke}
         />
     }
     )
